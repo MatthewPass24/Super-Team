@@ -1,6 +1,10 @@
+
+
 const teamMembers = [
     {
         name: 'Lionel Messi',
+        age: 36,
+        activelyPlaying: true,
         position: 'Forward',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -17,7 +21,79 @@ const teamMembers = [
     },
     {
         name: 'Lionel Messi III',
-        position: 'Forward',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control', 
+        weaknesses: 'Heading Ability',
+        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+    },
+    {
+        name: 'Lionel Messi III',
+        position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
@@ -34,13 +110,27 @@ function generateTeamCards (){
         card.classList.add('col-md-4')
 
         //styling card based on position:
-        let backgroundColor
+        let backgroundColor = ''
+
+        switch(member.position.toLowerCase()){
+            case 'forward':
+                backgroundColor = '#758fb6'// orange for forward
+                break
+            case 'midfielder':
+                backgroundColor = '#758fb6'// orange for forward
+                break    
+            case 'defender':
+                backgroundColor = '#758fb6'// orange for forward
+                break              
+        }   
+
+
 
         //Create a list of skills with the <li> tag
         const skillsList = member.skills.map(skill => `<li> ${skill} </li>`).join('')
         card.innerHTML = `
             <div class = "card">
-                <div class = "card-header"> ${member.name}</div>
+                <div class = "card-header" style="background-color: ${backgroundColor}"> ${member.name}</div>
                 <div class = "card-body">
                     <p><strong>Position:</strong> ${member.position}</p>
                     <p><strong>Skills:</strong>
