@@ -3,7 +3,7 @@
 const teamMembers = [
     {
         rank: '1.',
-        name: 'Lionel Messi',
+        name: 'Superman',
         age: 36,
         activelyPlaying: true,
         position: 'Forward',
@@ -11,28 +11,31 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/superman.png',
     },
     {
         rank: '2.',
-        name: 'Lionel Messi Jr.',
+        name: 'Thor',
         position: 'Midfielder',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/thor.jpg'
     },
     {
         rank: '3.',
-        name: 'Lionel Messi III',
+        name: 'Dr. Manhattan',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/manhattan.jpg'
     },
     {
         rank: '4.',
-        name: 'Lionel Messi III',
+        name: 'Hulk',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -41,7 +44,7 @@ const teamMembers = [
     },
     {
         rank: '5.',
-        name: 'Lionel Messi III',
+        name: 'Wonder Woman',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -50,7 +53,7 @@ const teamMembers = [
     },
     {
         rank: '6.',
-        name: 'Lionel Messi III',
+        name: 'Doctor Strange',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -59,7 +62,7 @@ const teamMembers = [
     },
     {
         rank: '7.',
-        name: 'Lionel Messi III',
+        name: 'Scarlet Witch',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -68,7 +71,7 @@ const teamMembers = [
     },
     {
         rank: '8.',
-        name: 'Lionel Messi III',
+        name: 'Sentry',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -77,7 +80,7 @@ const teamMembers = [
     },
     {
         rank: '9.',
-        name: 'Lionel Messi III',
+        name: 'Shazam',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -86,7 +89,7 @@ const teamMembers = [
     },
     {
         rank: '10.',
-        name: 'Lionel Messi III',
+        name: 'The Flash',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -95,7 +98,7 @@ const teamMembers = [
     },
     {
         rank: '11.',
-        name: 'Lionel Messi III',
+        name: 'Franklin Richards',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -104,7 +107,7 @@ const teamMembers = [
     },
     {
         rank: '12.',
-        name: 'Lionel Messi III',
+        name: 'Supergirl',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
@@ -143,9 +146,9 @@ function generateTeamCards (){
         card.innerHTML = `
             <div class = "card" style= "margin-bottom: 1em;">
                 <div class = "card-header" style="background-color: ${backgroundColor}">             
-                <h2><b>${member.rank}</b> ${member.name} </h2></div>
+                <h3><b>${member.rank}</b> ${member.name} </h3></div>
                 <div class = "card-body">
-  
+                <img style="width: 200px" src=${member.image} style="justify-content-center">
                     <p><strong>Position:</strong> ${member.position}</p>
                     <p><strong>Skills:</strong>
                         <ul>
