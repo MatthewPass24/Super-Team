@@ -41,6 +41,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/hulk.jpg'
     },
     {
         rank: '5.',
@@ -50,6 +51,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/ww.jpg'
     },
     {
         rank: '6.',
@@ -59,6 +61,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/strange.png'
     },
     {
         rank: '7.',
@@ -68,6 +71,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/witch.jpg'
     },
     {
         rank: '8.',
@@ -77,6 +81,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/sentry.png'
     },
     {
         rank: '9.',
@@ -86,6 +91,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/shazam.jpg'
     },
     {
         rank: '10.',
@@ -95,15 +101,17 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/flash.jpg'
     },
     {
         rank: '11.',
-        name: 'Franklin Richards',
+        name: 'Frank Richards',
         position: 'Defender',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/franklin.jpg'
     },
     {
         rank: '12.',
@@ -113,6 +121,7 @@ const teamMembers = [
         strengths: 'Ball control', 
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        image: 'images/supergirl.jpg'
     },
     
 ]
