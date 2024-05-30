@@ -153,7 +153,7 @@ function generateTeamCards (){
         //Create a list of skills with the <li> tag
         const skillsList = member.skills.map(skill => `<li> ${skill} </li>`).join('')
         card.innerHTML = `
-            <div class = "card" style= "margin-bottom: 1em;">
+            <div class = "card h-100 mb-3" style= "margin-top: 2em;">
                 <div class = "card-header" style="background-color: ${backgroundColor}">             
                 <h3><b>${member.rank}</b> ${member.name} </h3></div>
                 <div class = "card-body">
