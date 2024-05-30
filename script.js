@@ -50,7 +50,7 @@ const teamMembers = [
         skills: ['Agility/reflexes', 'Super Healing', 'Magic Weaponry'],
         strengths: 'Wisdom and Honesty', 
         weaknesses: 'Biological Clock',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Diana Prince is a highly trained pacifist and Amazon warrior-princess. She leads a disciplined but peaceful life with her fierce tribe of elite fighters.',
         image: 'images/ww.jpg'
     },
     {
@@ -60,7 +60,7 @@ const teamMembers = [
         skills: ['Astral Projection', 'Time Travel', 'Spellcasting'],
         strengths: 'Intelligence and Decisiveness', 
         weaknesses: 'Arrogance',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Doctor Stephen Strange was a talented neurosurgeon who was gravely injured after a car accident. Afterwards he must learn the secrets of mysticism and alternate dimensions.',
         image: 'images/strange.png'
     },
     {
@@ -70,7 +70,7 @@ const teamMembers = [
         skills: ['Chaos Magic', 'Telepathy', 'Transmutation'],
         strengths: 'Mastery of Magic', 
         weaknesses: 'Inconsistent Control of Body',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'The Scarlet Witch is  a mutant and born with superhuman abilities and traits. She was influenced by the High Evolutionary experimenting on her as a child.',
         image: 'images/witch.jpg'
     },
     {
@@ -80,7 +80,7 @@ const teamMembers = [
         skills: ['Immortality', 'Biokinesis', 'Telepathy'],
         strengths: 'Heightened Senses', 
         weaknesses: 'The Void',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Robert Reynolds became the Sentry thanks to the Golden Sentry Serum. This serum changed his molecules and was a more advanced version of the super soldier serum.',
         image: 'images/sentry.png'
     },
     {
@@ -90,7 +90,7 @@ const teamMembers = [
         skills: ['Power of Zeus', 'Transformation', 'Strength of Hercules'],
         strengths: 'Purity of Heart and Courage', 
         weaknesses: 'Heading Ability',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Billy Batson is a young boy who transforms into the superhero by speaking "Shazam!" His powers come from six mythological figures, and he must stay pure.',
         image: 'images/shazam.jpg'
     },
     {
@@ -100,7 +100,7 @@ const teamMembers = [
         skills: ['Super Speed', 'Time Travel', 'Speed Thinking'],
         strengths: 'Intuitive and Adaptable', 
         weaknesses: 'Extreme Temperatures',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Barry Allen gained super speed when lightning hit him and was doused in chemicals. He took the name "Flash" and became one of the founding members of the Justice League.',
         image: 'images/flash.jpg'
     },
     {
@@ -110,7 +110,7 @@ const teamMembers = [
         skills: ['Psionic Abilities', 'Reality Manipulation', 'Pocket Universes'],
         strengths: 'Intelligence', 
         weaknesses: 'Instability',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Franklin Richards is the son of Reed Richards and Sue Storm. He is an Omega-level mutant with reality-warping abilities, making him one of the most powerful beings.',
         image: 'images/franklin.jpg'
     },
     {
@@ -120,7 +120,7 @@ const teamMembers = [
         skills: ['Super Strength', 'Super Speed', 'Solar Energy Absorption'],
         strengths: 'Combat Trained', 
         weaknesses: 'Heading Ability',
-        biography: 'Lionel Messi is considered one of the greatest football players of all time',
+        biography: 'Kara Zor-El is the cousin of Superman and shares similar powers. She was sent to Earth to protect her cousin, but her spacecraft was knocked off course and arrived much later.  ',
         image: 'images/supergirl.jpg'
     },
     
