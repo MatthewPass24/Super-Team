@@ -9,8 +9,12 @@ header {
     padding: 20px;
     color: white;
 }
-
-
+img {
+    border-radius: 5px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.842);
+}
 .row {
     margin-bottom: 2em;
     margin-top: 2em;
