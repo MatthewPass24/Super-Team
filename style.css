@@ -1,9 +1,23 @@
+body {
+    background-image: url('images/superhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header {
     text-align: center;
-    padding: 2em;
+    background-color: #c41b1bcc;
+    padding: 20px;
+    color: white;
 }
+
 
 .row {
     margin-bottom: 2em;
     margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.big {
+    justify-content: center;
+    text-align: center;
 }
